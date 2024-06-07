@@ -40,7 +40,7 @@ function enterData(){
             } else{
             users.push(user)
             localStorage.setItem('usersData', JSON.stringify(users))
-            window.location = '../index.html'
+            window.location = './index.html'
             nameSign.classList.add('is-valid')
             emailSign.classList.add('is-valid')
             nameSign.classList.remove('is-invalid')
