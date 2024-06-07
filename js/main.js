@@ -24,7 +24,7 @@ function callData(){
     } else{
         for (let i = 0; i < storageDate.length; i++) {
             if(emailLog.value == storageDate[i].email && passwordLog.value == storageDate[i].password){
-                window.location = '/page.html'
+                window.location = './page.html'
                 localStorage.setItem('userName', JSON.stringify(storageDate[i].name))
                 emailLog.classList.remove('is-invalid')
                 emailLog.classList.add('is-valid')
